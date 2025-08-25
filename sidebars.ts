@@ -32,7 +32,26 @@ const sidebars: SidebarsConfig = {
             'products/court/juror-tutorial',
             'products/court/famous-cases'
           ],
-        }
+        },
+        {
+          type: 'category',
+          label: 'Curate',
+          items: [
+            'products/curate/index',
+            'products/curate/tutorial'
+          ],
+        },
+        'products/escrow',
+        'products/proof-of-humanity'
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Developer',
+      collapsed: true,
+      items: [
+        'developer/index',
+        'developer/arbitration-standard'
       ],
     },
     {
