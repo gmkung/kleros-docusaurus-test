@@ -5,7 +5,7 @@
 ### 1. Create GitHub Repository
 
 1. Go to [GitHub.com](https://github.com) and create a new repository
-2. Name it: `kleros-docs-docusaurus`
+2. Name it: `kleros-docusaurus-test`
 3. Make it **public** (required for GitHub Pages)
 4. **Don't** initialize with README, .gitignore, or license (we already have these)
 
@@ -15,7 +15,7 @@ Run these commands in your terminal:
 
 ```bash
 # Add the GitHub repository as remote origin
-git remote add origin https://github.com/guangmiankung/kleros-docs-docusaurus.git
+git remote add origin https://github.com/gmkung/kleros-docusaurus-test.git
 
 # Push to GitHub
 git branch -M main
@@ -36,7 +36,7 @@ GitHub will automatically:
 - Detect this is a Docusaurus project
 - Set up GitHub Actions workflow
 - Build and deploy to GitHub Pages
-- Your site will be available at: `https://guangmiankung.github.io/kleros-docs-docusaurus/`
+- Your site will be available at: `https://gmkung.github.io/kleros-docusaurus-test/`
 
 ## Alternative: Manual Deployment
 
@@ -47,17 +47,17 @@ If you prefer manual deployment using Docusaurus built-in command:
 yarn build
 
 # Deploy to GitHub Pages (requires GIT_USER environment variable)
-GIT_USER=guangmiankung yarn deploy
+GIT_USER=gmkung yarn deploy
 ```
 
 ## Configuration Details
 
 The site is already configured for GitHub Pages:
 
-- **URL**: `https://guangmiankung.github.io`
-- **Base URL**: `/kleros-docs-docusaurus/`
-- **Organization**: `guangmiankung`
-- **Project**: `kleros-docs-docusaurus`
+- **URL**: `https://gmkung.github.io`
+- **Base URL**: `/kleros-docusaurus-test/`
+- **Organization**: `gmkung`
+- **Project**: `kleros-docusaurus-test`
 
 ## Updating the Site
 
