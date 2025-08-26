@@ -1,350 +1,413 @@
 ---
-description: Complete guide to becoming a Kleros juror and earning rewards
+sidebar_position: 2
+description: Complete step-by-step guide to becoming and succeeding as a Kleros juror
 ---
 
-# Kleros Juror Tutorial
+# Juror Tutorial
 
-Welcome to the Kleros Juror Starter Kit! This comprehensive guide will walk you through everything you need to know to become a successful juror in the Kleros Court system.
+This comprehensive guide will walk you through everything you need to know to become a successful Kleros juror, from initial setup to advanced strategies.
 
-**🎯 No registration required • 🔒 No personal information needed • 💰 Earn rewards for fair decisions**
+## Prerequisites
 
-## Getting Started
+Before starting, ensure you have:
+- A Web3 wallet (MetaMask, WalletConnect, etc.)
+- ETH for transaction fees
+- PNK tokens to stake
+- Basic understanding of blockchain transactions
 
-### What You'll Need
+## Step 1: Acquire PNK Tokens
 
-Before becoming a juror, ensure you have:
+### Where to Buy PNK
 
-#### 1. 🦊 MetaMask Wallet
-- **[Install MetaMask](https://metamask.io/)** - Browser extension or mobile app
-- Set up your wallet and secure your seed phrase
-- Connect to Ethereum Mainnet
+1. **DEX Aggregators (Recommended for large trades)**
+   - [Paraswap](https://paraswap.io/#/) - Best price discovery
+   - [1inch](https://1inch.exchange/#/) - Smart routing
 
-#### 2. 💰 PNK Tokens  
-- **[Buy PNK](/pnk-token#where-to-buy-pnk)** - Purchase from exchanges or DEXs
-- **Minimum amounts vary by court** (typically 1,000-5,000 PNK)
-- Keep some ETH for gas fees
+2. **Decentralized Exchanges**
+   - [Uniswap](https://app.uniswap.org/#/swap?inputCurrency=ETH&outputCurrency=0x93ed3fbe21207ec2e8f2d3c3de6e058cb73bc04d)
+   - [Sushiswap](https://app.sushi.com/swap)
+   - [Balancer](https://balancer.exchange/)
 
-#### 3. ⛽ ETH for Gas
-- Small amount for transaction fees
-- Needed for staking, voting, and unstaking operations
+3. **Centralized Exchanges**
+   - [Bitfinex](https://www.bitfinex.com/t/PNKETH)
+   - [Gate.io](https://www.gate.io/trade/PNK_USDT)
 
-### Quick Start: Buy PNK
+### How Much PNK to Start With?
 
-The easiest way to get PNK:
+- **Beginner**: 1,000-5,000 PNK (~$100-500)
+- **Active Juror**: 10,000-50,000 PNK (~$1,000-5,000)  
+- **Dedicated Juror**: 100,000+ PNK (~$10,000+)
 
-1. **Visit [Kleros Court](https://court.kleros.io)**
-2. **Click "Buy PNK"** in the top right
-3. **Choose your preferred exchange** from the list
-4. **Purchase PNK** and transfer to your MetaMask wallet
+More PNK = higher selection probability = more earning opportunities.
 
-![Buy PNK Interface](https://via.placeholder.com/600x300?text=Buy+PNK+Interface)
+## Step 2: Access Kleros Court
 
-## Becoming a Juror
+1. **Visit Kleros Court**: Go to [court.kleros.io](https://court.kleros.io)
+2. **Connect Wallet**: Click "Connect" and select your Web3 wallet
+3. **Switch Network**: Ensure you're on Ethereum Mainnet
+4. **Verify Connection**: Your wallet address should appear in the top right
 
-### Step 1: Choose Your Court
+## Step 3: Choose Your Subcourt
 
-Different courts require different expertise levels:
+Kleros has specialized subcourts for different dispute types. Choose based on your expertise:
 
-#### 🎓 **Beginner Courts**
-- **Onboarding Court** - Perfect for new jurors
-- **General Court** - Basic disputes, minimal specialization needed
-- **Minimum stake**: ~1,000 PNK
+### **General Court**
+- **Stake Required**: 1,000 PNK minimum
+- **Cases**: Mixed dispute types
+- **Good for**: Beginners, general knowledge
+- **Vote Stake**: 1,000 PNK per vote
 
-#### 🔗 **Blockchain Courts**  
-- **Blockchain Non-Technical** - Basic blockchain knowledge required
-- **Token Listing** - Understanding of token economics
-- **Minimum stake**: ~1,600 PNK
+### **Blockchain Technical**  
+- **Stake Required**: 10,000 PNK minimum
+- **Cases**: Smart contract bugs, protocol disputes
+- **Good for**: Developers, technical experts
+- **Vote Stake**: 10,000 PNK per vote
 
-#### 🌐 **Language Courts**
-- **English Court** - English language expertise
-- **Spanish Court** - Spanish language expertise  
-- **French Court** - French language expertise
-- **Minimum stake**: ~3,200 PNK
+### **Blockchain Non-Technical**
+- **Stake Required**: 5,000 PNK minimum  
+- **Cases**: DeFi disputes, token policies
+- **Good for**: Crypto-savvy users
+- **Vote Stake**: 5,000 PNK per vote
 
-#### ⚖️ **Specialized Courts**
-- **Curation** - Content and data verification
-- **Insurance** - Insurance dispute knowledge
-- **Marketing** - Advertising and promotional content
-- **Minimum stake**: varies significantly
+### **English Language**
+- **Stake Required**: 5,000 PNK minimum
+- **Cases**: Translation quality, content disputes  
+- **Good for**: Native English speakers
+- **Vote Stake**: 5,000 PNK per vote
 
-### Step 2: Navigate to Courts
+### **Marketing Services**
+- **Stake Required**: 5,000 PNK minimum
+- **Cases**: Service delivery, quality disputes
+- **Good for**: Marketing professionals
+- **Vote Stake**: 5,000 PNK per vote
 
-1. **Go to [Kleros Court](https://court.kleros.io)**
-2. **Click "Courts"** in the header
-3. **Select "Join a Court"**
+### **Curation**
+- **Stake Required**: 2,000 PNK minimum
+- **Cases**: List submissions, content validation
+- **Good for**: Detail-oriented users
+- **Vote Stake**: 2,000 PNK per vote
 
-![Court Navigation](https://via.placeholder.com/600x200?text=Court+Navigation)
+## Step 4: Stake Your PNK
 
-### Step 3: Explore Court Options
+1. **Select Court**: Click on your chosen subcourt
+2. **Click "Stake"**: Enter the amount you want to stake
+3. **Approve Transaction**: Sign the approval transaction in your wallet
+4. **Confirm Stake**: Sign the staking transaction
+5. **Wait for Confirmation**: Transaction should confirm within minutes
 
-Browse the court tree structure:
-- **Start with General Court** (always selected by default)
-- **Click down the tree** to see subcourts
-- **Read court descriptions** and requirements carefully
-- **Check minimum stake amounts** and potential rewards
-
-![Court Tree Structure](https://via.placeholder.com/500x400?text=Court+Tree+Structure)
-
-### Step 4: Stake Your PNK
-
-Once you've chosen your court:
-
-1. **Click the "Stake" button** for your chosen court
-2. **Enter the amount** of PNK you want to stake
-3. **Review the details**:
-   - Minimum stake requirement
-   - Potential rewards per case
-   - PNK locked per vote (varies by court)
-4. **Confirm transaction** in MetaMask
-5. **Pay gas fee** to complete staking
-
-![Staking Interface](https://via.placeholder.com/500x300?text=Staking+Interface)
-
-:::info Important Staking Rules
-**When you stake in a court, you are automatically staked in all parent courts up to the General Court.** This is necessary for the appeal system to function properly.
+:::tip Pro Tips for Staking
+- Start with the minimum required amount to test the process
+- You can stake in multiple subcourts simultaneously
+- Stake more in courts where you have expertise
+- Remember: staked tokens are locked but can be withdrawn anytime (with delay)
 :::
 
-### Step 5: Wait for Jury Selection
+## Step 5: Understanding Case Selection
 
-After staking:
-- **Your stake is active** immediately after transaction confirmation
-- **Selection is random** but proportional to your stake
-- **Higher stakes = higher chance** of being selected
-- **Be patient** - selection depends on case volume
+### How Jurors Are Selected
 
-Track your status on the **Courts page** where you'll see:
-- **Your staked amount** in each court
-- **Potential rewards** for coherent voting
-- **Court statistics** and activity levels
+1. **Random Drawing**: Kleros randomly selects jurors proportional to their stake
+2. **Multiple Draws**: Your PNK acts like lottery tickets - more PNK = more chances
+3. **Per-Vote Selection**: Each vote in a case requires a separate selection
+4. **Time Window**: You have ~3 days to cast your vote once selected
 
-![Staked PNK View](https://via.placeholder.com/600x250?text=Your+Staked+PNK)
+### Selection Probability
 
-## When You're Selected as a Juror
+Your selection chances depend on:
+- **Your stake** vs. **total court stake**
+- **Number of active jurors** in the subcourt
+- **Case frequency** in your chosen courts
 
-### Getting Notified
+**Example**: If you stake 10,000 PNK in a court with 1,000,000 total stake, you have a 1% chance of being selected for each vote.
 
-**Enable notifications** to never miss a case:
-1. **Click the email icon** in the menu header
-2. **Enter your email address**
-3. **Receive notifications** for:
-   - New cases where you're selected
-   - Case state changes
-   - Appeal notifications
-   - Reward distributions
+## Step 6: Participating in Your First Case
 
-### Reviewing Your Case
+### When You're Selected
 
-When selected, you'll see the case in **"My Cases"** section:
+You'll receive notifications via:
+- Email (if configured)
+- Browser notifications
+- Kleros Court interface alerts
 
-1. **Click "See Details"** to review the case
-2. **Read all evidence** submitted by parties
-3. **Review court policy** and guidelines
-4. **Consider all arguments** carefully
+### Case Analysis Process
 
-![Case Details](https://via.placeholder.com/600x400?text=Case+Details+View)
+1. **Read the Question**: Understand exactly what needs to be decided
+2. **Review Court Policy**: Each subcourt has specific guidelines
+3. **Examine Evidence**: Look at all submitted evidence carefully
+4. **Research if Needed**: Use external sources when appropriate
+5. **Make Your Decision**: Vote based on evidence and court policy
 
-## The Voting Process
+### Voting Interface
 
-### Understanding Your Options
+1. **Access the Case**: Go to court.kleros.io and find your active cases
+2. **Review Details**: Read the case description, policy, and evidence
+3. **Cast Your Vote**: Select your choice and click "Vote"
+4. **Justify Your Decision**: Write a clear explanation for your vote
+5. **Commit Vote**: Sign the transaction to submit your vote
 
-For each case, you have **three voting options**:
+## Step 7: Understanding the Voting Process
 
-#### ✅ **Option A / Yes**
-- Support the first party's position
-- Vote when evidence clearly supports this side
+### Commit-Reveal System
 
-#### ❌ **Option B / No**  
-- Support the second party's position
-- Vote when evidence clearly supports this side
+Kleros uses a two-phase voting system:
 
-#### 🚫 **Refuse to Arbitrate**
-- Use in specific situations only:
-  - Both parties engaged in illegal activities
-  - Content violates moral standards
-  - Insufficient information to make decision
-  - Court policy explicitly requires refusal
+1. **Commit Phase** (~3 days)
+   - Jurors cast secret votes
+   - Votes are encrypted and hidden
+   - No one can see how others voted
 
-:::warning Refuse to Arbitrate
-Only use "Refuse to Arbitrate" when court guidelines or policies explicitly indicate you should. Improper use may result in loss of staked tokens.
-:::
+2. **Appeal Period** (~3 days)
+   - Votes are revealed automatically
+   - Parties can appeal if they disagree
+   - Majority decision determines the initial outcome
 
-### Making Your Decision
+3. **Final Resolution**
+   - If no appeal: case ends, rewards distributed
+   - If appeal: case goes to next round with more jurors
 
-**Review Process:**
-1. **📋 Read the case description** thoroughly
-2. **📄 Examine all evidence** from both parties  
-3. **📜 Check court policies** and guidelines
-4. **⚖️ Apply policy to evidence** objectively
-5. **🗳️ Cast your vote** before deadline
+### Vote Coherence and Rewards
 
-**Best Practices:**
-- ✅ Base decisions on evidence and policy
-- ✅ Vote coherently with other honest jurors
-- ✅ Submit detailed justification
-- ❌ Don't vote randomly or emotionally
-- ❌ Don't ignore court guidelines
+- **Coherent Vote**: Vote with the majority → Earn rewards
+- **Incoherent Vote**: Vote with the minority → Lose part of your stake
+- **Reward Amount**: Proportional to vote stake and incoherent juror penalties
 
-## Understanding Rewards & Penalties
+## Step 8: Writing Effective Justifications
 
-### Coherent Voting Rewards
+Your vote justification is crucial for:
+- Helping other jurors understand your reasoning
+- Supporting the case in potential appeals
+- Building your reputation in the community
 
-**When you vote with the majority:**
-- **Receive arbitration fees** for your work
-- **Keep your staked PNK** safe
-- **Get coherence rewards** from incoherent jurors
-- **Build reputation** in the court
+### Good Justification Example:
+```
+Based on the court policy section 3.2, promotional content must clearly
+disclose partnerships. The submitted evidence shows the influencer failed
+to use required hashtags (#ad, #sponsored) in posts dated March 15-20.
+Screenshots from Archive.org confirm these hashtags were missing during
+the initial posting period. Therefore, the promotional content policy 
+was violated.
 
-### Incoherent Voting Penalties
-
-**When you vote against the majority:**
-- **Lose part of your stake** to coherent jurors
-- **No arbitration fees** earned
-- **Opportunity cost** of time spent
-
-### Economic Incentives
-
-This system ensures:
-- **Honest jurors are rewarded** financially
-- **Random voting is punished** economically  
-- **Expertise is incentivized** through specialization
-- **Long-term participation** is profitable
-
-## The Complete Court Process
-
-```mermaid
-graph TD
-    A[Case Created] --> B[Evidence Period]
-    B --> C[Juror Selection & Notification]
-    C --> D[Vote Submission Period]
-    D --> E[Vote Reveal & Results]
-    E --> F{Appeal Filed?}
-    F -->|No| G[Final Decision & Rewards]
-    F -->|Yes| H[Higher Court Selection]
-    H --> B
-    G --> I[PNK Redistribution]
+Evidence reviewed:
+- Screenshots: exhibits A, B, C
+- Court policy: section 3.2
+- Archive.org verification: exhibit D
 ```
 
-### Timeline Overview
+### Poor Justification Example:
+```
+This looks wrong to me. I don't think this should be allowed.
+```
 
-1. **Evidence Period** (typically 3-7 days)
-   - Parties submit evidence and arguments
-   - Anyone can contribute relevant information
+## Step 9: Managing Your Staking Strategy
 
-2. **Voting Period** (typically 3-4 days)  
-   - Jurors review evidence and vote
-   - Secret voting to prevent influence
+### Active vs. Passive Staking
 
-3. **Appeal Period** (typically 3-7 days)
-   - Parties can appeal to larger jury
-   - Appeal fees must be paid
+**Active Strategy:**
+- Monitor cases frequently
+- Participate in most selections
+- Higher earnings but more time commitment
+- Requires staying updated on court policies
 
-4. **Reward Distribution** (automatic)
-   - Coherent jurors receive rewards
-   - Incoherent jurors lose stakes
+**Passive Strategy:**  
+- Stake and participate occasionally
+- Lower earnings but less time commitment
+- Good for long-term PNK holders
+- Set notifications for important cases
 
-## Advanced Juror Topics
+### Portfolio Approach
 
-### Court Specialization Strategy
+Consider diversifying across multiple subcourts:
+- **70%**: Your area of expertise (higher accuracy)
+- **20%**: General court (more case volume)
+- **10%**: Experimental courts (learning opportunities)
 
-**Building Expertise:**
-- Start with **General/Onboarding** courts
-- Learn from experienced jurors
-- Gradually move to **specialized courts**
-- Focus on areas of personal expertise
+## Step 10: Advanced Strategies
 
-**Maximizing Returns:**
-- **Higher specialization** = higher rewards
-- **Consistent coherent voting** builds reputation
-- **Multiple court participation** diversifies income
-- **Larger stakes** increase selection chances
+### Maximizing Earnings
 
-### Managing Multiple Courts
+1. **Policy Mastery**: Know court policies inside and out
+2. **Evidence Analysis**: Develop systematic evaluation methods
+3. **Historical Analysis**: Study past cases for patterns
+4. **Community Engagement**: Join Discord/Telegram for discussions
 
-**Portfolio Approach:**
-- **Diversify across courts** to increase case volume
-- **Balance risk vs reward** (specialized vs general)
-- **Monitor court activity** and adjust stakes
-- **Seasonal patterns** may affect different courts
+### Risk Management
 
-### Appeal System Understanding
+1. **Don't Overcommit**: Only stake what you can afford to lose
+2. **Stay Informed**: Keep up with court policy updates
+3. **Appeal Considerations**: Factor in appeal probability
+4. **Coherence Tracking**: Monitor your vote accuracy over time
 
-**How Appeals Work:**
-- **Losing party** can challenge decision
-- **Jury size increases** significantly (3x typically)
-- **New jurors selected** from parent court
-- **Appeal fees** fund larger jury rewards
+### Time Management
 
-**Appeal Strategy:**
-- **Vote consistently** across all rounds
-- **Higher courts** have more experienced jurors
-- **Final decisions** are more reliable
+1. **Set Notifications**: Configure alerts for case assignments
+2. **Batch Processing**: Review multiple cases in dedicated sessions
+3. **Evidence Organization**: Develop templates for vote justifications
+4. **Schedule Reviews**: Regularly check for new cases
 
-## Troubleshooting & Support
+## Step 11: Understanding Rewards and Penalties
 
-### Common Issues
+### Reward Distribution
 
-**Not Getting Selected?**
-- ✅ Increase your stake amount
-- ✅ Try different courts with more activity
-- ✅ Be patient - selection is random
-- ✅ Check if your stake is active
+When you vote coherently (with the majority):
+- **Base Reward**: Your proportional share of case fees
+- **Coherence Bonus**: Redistributed stake from incoherent jurors
+- **Appeal Rewards**: Additional fees if case goes to appeal
 
-**Lost PNK After Voting?**
-- ✅ Review your voting decisions
-- ✅ Check if you voted coherently  
-- ✅ Learn from the case for future votes
-- ✅ Consider it part of the learning process
+### Penalty Mechanism
 
-**Technical Problems?**
-- ✅ Check MetaMask connection
-- ✅ Ensure sufficient ETH for gas
-- ✅ Try refreshing browser
-- ✅ Clear browser cache
+When you vote incoherently (with the minority):
+- **Alpha Parameter**: Determines penalty amount (usually 0.15-0.35)
+- **Stake Loss**: Percentage of your vote stake is redistributed
+- **No Total Loss**: You never lose your entire stake
+
+### Example Calculation
+- **Vote Stake**: 10,000 PNK
+- **Alpha**: 0.2 (20%)
+- **If Incoherent**: Lose 2,000 PNK
+- **If Coherent**: Keep 10,000 PNK + rewards
+
+## Step 12: Common Mistakes to Avoid
+
+### Critical Errors
+
+1. **Not Reading Court Policy**: Each subcourt has specific rules
+2. **Ignoring Evidence**: Base decisions on submitted evidence only  
+3. **Poor Justifications**: Always explain your reasoning clearly
+4. **Missing Deadlines**: You have limited time to vote
+5. **Emotional Voting**: Stay objective and policy-focused
+
+### Technical Issues
+
+1. **Transaction Failures**: Always check if your vote was recorded
+2. **Network Problems**: Use stable internet during voting
+3. **Wallet Issues**: Keep your wallet connected and unlocked
+4. **Gas Fee Planning**: Ensure you have enough ETH for transactions
+
+## Step 13: Community and Support
 
 ### Getting Help
 
-- **💬 [Discord](https://discord.gg/MhXQGCyHd9)** - Real-time community support
-- **📱 [Telegram](https://t.me/kleros)** - Community discussions
-- **📋 [Forum](https://forum.kleros.io)** - Detailed help and discussions
-- **📚 [Documentation](/faq)** - Comprehensive FAQ
+- **Discord**: [discord.gg/MhXQGCyHd9](https://discord.gg/MhXQGCyHd9) - Real-time juror support
+- **Telegram**: [t.me/kleros](https://t.me/kleros) - Community discussions
+- **Forum**: [forum.kleros.io](https://forum.kleros.io) - Detailed policy discussions
+- **Documentation**: [docs.kleros.io](/) - Complete guides and references
 
-## Success Tips for New Jurors
+### Community Guidelines
 
-### 🎯 **Start Small**
-- Begin with smaller stakes to learn
-- Focus on one or two courts initially
-- Gain experience before increasing investment
+1. **No Vote Coordination**: Never discuss how you'll vote on active cases
+2. **Respect Decisions**: Accept majority decisions even if you disagree
+3. **Help Newcomers**: Share knowledge with new jurors
+4. **Report Issues**: Alert moderators to technical problems
+5. **Stay Professional**: Maintain respectful discourse
 
-### 📚 **Study Court Policies**
-- Read guidelines thoroughly
-- Understand each court's requirements
-- Learn from past cases and decisions
+## Step 14: Tracking Your Performance
 
-### 🤝 **Join the Community**
-- Participate in Discord discussions  
-- Learn from experienced jurors
-- Stay updated on court changes
+### Key Metrics to Monitor
 
-### ⚖️ **Vote Responsibly**
-- Base decisions on evidence, not emotion
-- Take time to review all materials
-- Consider the long-term impact of decisions
+1. **Coherence Rate**: Percentage of votes that match majority
+2. **Selection Frequency**: How often you're chosen as juror
+3. **Total Earnings**: PNK earned from cases
+4. **Case Completion**: Number of cases you've participated in
 
-### 💡 **Learn Continuously**
-- Analyze your voting results
-- Understand why decisions were made
-- Adapt your strategy based on outcomes
+### Performance Tools
+
+- **Court Dashboard**: Built-in statistics on court.kleros.io
+- **Community Trackers**: Third-party tools for detailed analytics
+- **Personal Records**: Keep your own log of cases and outcomes
+
+### Target Benchmarks
+
+- **Coherence Rate**: Aim for 80%+ accuracy
+- **Selection Rate**: Should align with your stake percentage
+- **Community Ranking**: Compare with other active jurors
+
+## Troubleshooting Common Issues
+
+### Technical Problems
+
+**Problem**: Transaction keeps failing
+**Solution**: 
+- Check gas fees are sufficient
+- Verify wallet is connected to Ethereum mainnet
+- Try refreshing the page and reconnecting wallet
+
+**Problem**: Not getting selected for cases
+**Solution**:
+- Ensure you have minimum stake in active subcourts
+- Check that your stake hasn't been redistributed due to incoherent votes
+- Verify you're staked in courts with active case volume
+
+**Problem**: Can't find assigned case
+**Solution**:
+- Check all subcourts you're staked in
+- Look in both active and past cases sections
+- Clear browser cache and refresh
+
+### Policy Questions
+
+**Problem**: Conflicting evidence
+**Solution**:
+- Refer to court policy for evidence hierarchy
+- Look for primary vs. secondary sources
+- Check evidence timestamps and authenticity
+
+**Problem**: Unclear court policy
+**Solution**:
+- Review previous similar cases for precedent
+- Ask for clarification in community forums (without revealing case details)
+- Vote based on your best interpretation and document reasoning
+
+## Advanced Topics
+
+### Appeal Dynamics
+
+Understanding appeals is crucial for experienced jurors:
+
+1. **Appeal Cost**: Each round costs exponentially more
+2. **Jury Size**: Doubles each round (3→6→12→24...)
+3. **Selection Probability**: Changes based on total stake
+4. **Finality**: Eventually becomes too expensive to appeal
+
+### Governance Participation
+
+As an experienced juror, consider participating in:
+- **Court Policy Updates**: Vote on subcourt parameter changes
+- **PNK Governance**: Participate in protocol-level decisions
+- **Community Leadership**: Help guide new jurors and policy discussions
+
+### Building Reputation
+
+Develop your reputation through:
+- **Consistent Performance**: High coherence rate over time
+- **Quality Justifications**: Well-reasoned vote explanations
+- **Community Contributions**: Helpful discussions and guidance
+- **Policy Expertise**: Deep knowledge of specific subcourts
 
 ---
 
-## Ready to Start?
+## Quick Reference Guide
 
-1. **🦊 [Set up MetaMask](https://metamask.io/)** if you haven't already
-2. **💰 [Buy PNK](/pnk-token#where-to-buy-pnk)** from your preferred exchange  
-3. **⚖️ [Visit Kleros Court](https://court.kleros.io)** and choose your court
-4. **🎯 [Take the Juror Quiz](/quizzes/juror-quiz)** to test your knowledge
-5. **💬 [Join our Discord](https://discord.gg/MhXQGCyHd9)** to connect with other jurors
+### Essential Links
+- **Kleros Court**: [court.kleros.io](https://court.kleros.io)
+- **Buy PNK**: [app.uniswap.org](https://app.uniswap.org/#/swap?inputCurrency=ETH&outputCurrency=0x93ed3fbe21207ec2e8f2d3c3de6e058cb73bc04d)
+- **Community Discord**: [discord.gg/MhXQGCyHd9](https://discord.gg/MhXQGCyHd9)
+- **Documentation**: [docs.kleros.io](/)
 
-**Important reminder:** Always review court policies carefully before voting. Your decisions impact real disputes and people's lives.
+### Key Reminders
+- Read court policy before every case
+- Base decisions on evidence, not personal opinion
+- Write clear, detailed justifications
+- Never discuss active case votes publicly
+- Keep learning and improving your accuracy
 
-*Welcome to the future of decentralized justice! See you in court! ⚖️*
+### Emergency Contacts
+- **Technical Issues**: #tech-support on Discord
+- **Policy Questions**: #court-questions on Discord  
+- **General Help**: #general on Discord
+- **Bug Reports**: Create issue on GitHub
+
+---
+
+**Ready to start your juror journey?** Visit [court.kleros.io](https://court.kleros.io) to stake your PNK and begin participating in decentralized justice.
+
+*Remember: Being a good juror takes practice. Start small, learn continuously, and build your expertise over time.*

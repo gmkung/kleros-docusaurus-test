@@ -1,224 +1,229 @@
 ---
-sidebar_position: 2
-description: Frequently Asked Questions about Kleros
+sidebar_position: 5
+description: Frequently asked questions about Kleros and decentralized justice
 ---
 
 # Frequently Asked Questions
 
-## General
+## General Questions
 
-### Can you really trust a decision made by anonymous people on the Internet?
+### What is Kleros?
 
-Satoshi Nakamoto taught us that a number of anonymous computers who do not trust each can still reach consensus, provided incentives are correctly structured. Kleros extends this principle to human decision-making. A number of anonymous jurors who do not trust each other can reach consensus on a right decision, provided incentives are correctly structured.
+Kleros is a decentralized dispute resolution protocol that uses blockchain technology and game theory to provide fair, fast, and affordable arbitration services. It acts as a decentralized third party capable of providing decisions on disputes ranging from simple to highly complex.
 
-Since decisions made in Kleros affect the allocation of resources, there is an incentive for parties to try to bribe or intimidate the tribunal. Pseudonymity is intended to protect jurors from bribing attempts, intimidation, and retaliation. It favors their functional independence (ability to freely give their judgement). It also simplifies the process of users becoming jurors and avoids the costs of identity verification. By providing a secure environment and simplifying the selection process, Kleros greatly enlarges the pool of potential jurors. This results in lower arbitration costs and the democratization of access to justice.
+### How does Kleros work?
 
-To learn more about the incentive system, read our [white paper](https://kleros.io/whitepaper.pdf).
+Kleros uses a system of randomly selected jurors who stake PNK tokens to participate in dispute resolution. These jurors review evidence, vote on outcomes, and are incentivized to vote honestly through economic rewards and penalties.
 
-### How long has Kleros been operating?
+### Why should I trust a decentralized system over traditional courts?
 
-Kleros Court has been live since 2018 on Ethereum mainnet, and it has handled and ruled on more than a thousand different cases and has a community of more than 760 active jurors staking in 23 different courts (Source: [KlerosBoard](http://klerosboard.com)). 
-
-Kleros Court has ruled fairly on several controversial cases where millions of dollars were at stake (see [Famous Kleros Cases](/products/court/famous-cases)). It is trusted as an unbiased and transparent arbitration layer by multiple DApps across different fields including:
-
-- Prediction Markets
-- Insurance 
-- Decentralized Exchanges (DEX)
-- Sybil-Resistance
-- Marketplaces
-
-Check all current integrations [here](/integrations/live-integrations).
-
-### What is the PNK token supply?
-
-The current total supply is **764,626,704 PNK**. The supply can only be modified by the Kleros community through a DAO governance vote.
-
-### Does a party who wants to have a case adjudicated need to hold PNK?
-
-No, only jurors need PNK in order to be drawn. Parties don't even need to know what the Kleros token is.
-
-### Is the identity of jurors revealed?
-
-Since decisions made in Kleros affect the allocation of resources, there is an incentive for parties to try to bribe or intimidate the tribunal. Anonymity is intended to protect jurors from intimidation and retaliation. It also simplifies the process of users becoming jurors and avoids the costs of identity verification. 
-
-By providing a secure environment and simplifying the selection process, Kleros greatly enlarges the pool of potential jurors. This results in lower arbitration costs and the democratization of access to justice.
-
-### What is Kleros token allocation?
-
-- **Team Members**: 18%
-- **First Round of Token Sale**: 16%
-- **Airdrop**: 4%
-- **Subsequent Rounds and Juror Incentive Program**: 50%
-- **Kleros Cooperative Development Reserve**: 12%
-
-### Could Kleros become a platform used by mainstream online retailers?
-
-Yes, by adopting Kleros, any mainstream e-commerce platform could enjoy a fast, affordable, and transparent dispute resolution method. 
-
-If you want to learn more, watch this talk ["When Decentralized Protocols Meet the Real World"](https://youtu.be/ssdgdV_fngI) or [contact us](/products/enterprise).
-
-### How does the appeal system work? Doesn't this favor wealthy parties?
-
-Anyone can appeal a dispute ruling in Kleros. Most of the time both sides will be asked to contribute fees for the next round of voting to ensure jurors are rewarded and that the winning side is reimbursed of its paid fees.
-
-We have made several design choices to ensure fair outcomes even when parties have different resources:
-
-1. **Appeal fees can be "crowdfunded"** - Anyone can contribute a portion of either side's appeal fees, potentially with many small contributions adding up to cover the whole fee.
-
-2. **Crowdfunders are rewarded** - Those who pay part of the fees of the side that ultimately wins are financially rewarded.
-
-People are incentivized to look at current appealed cases to spot obvious incorrect rulings and help crowdfund the other side to earn rewards. This has proven effective to deter wealthy parties from trying to win just by appealing several times.
-
-Learn more about [crowdfunded appeals](https://blog.kleros.io/kleros-decentralized-token-listing-appeal-fees/).
-
-### Can someone perform a 51% attack on Kleros Court?
-
-For a "whale" attacker to flood the juror pool and control the court, they would need to buy enough PNK to be selected as a juror for the same case enough times to change the outcome. Generally, this means attacks need 51% of the total staked tokens.
-
-**Why 51% attacks are economically impractical:**
-
-1. **Market liquidity dries up** - As the attacker buys PNK, it becomes scarce and each additional PNK costs more. The attacker may not find 51% of PNK for sale at any given time.
-
-2. **Community response** - If an attacker manages to buy a majority and commits obvious miscarriages of justice, Kleros would lose credibility and PNK value would decrease, causing the attacker substantial losses.
-
-3. **Fork defense** - As a last resort, the community could fork the system to remove the attacker's holdings, similar to Augur's ultimate appeal mechanism.
-
-### How can I verify the dispute resolution process hasn't been tampered with?
-
-Kleros is committed to full transparency:
-
-- All cases are completely open and can be monitored by anyone with internet access
-- The entire history of cases is published on-chain for reference
-- All cryptoeconomic research is public
-- The code is open source
-- A fully working version of Kleros could be replicated by anyone with blockchain technical skills
-
-### Can Kleros handle complex cases beyond simple binary decisions?
-
-Yes! Kleros can handle:
-- Multiple choice questions
-- Numerical/scalar outcomes (e.g., "What is the number of electoral college votes won by Biden in the 2020 election?")
-
-We generally recommend binary choices to avoid vote-splitting and allow small juries (potentially just one juror) to arrive at useful results.
-
-For complex multi-factorial cases, [Pendulum arbitration](https://en.wikipedia.org/wiki/Pendulum_arbitration) can be used to ask juries to choose between multiple sets of outcomes.
+Kleros offers several advantages:
+- **Transparency**: All decisions and evidence are publicly verifiable
+- **Speed**: Cases resolved in days rather than months or years
+- **Cost**: Significantly cheaper than traditional arbitration
+- **Accessibility**: Available 24/7 across all jurisdictions
+- **Fairness**: Economic incentives ensure impartial decisions
 
 ## For Jurors
 
-### Can appeals be managed outside of Kleros?
+### How do I become a juror?
 
-Yes, it's possible to create an arbitrable smart contract that uses Kleros for first instance disputes and allows appeals to be handled outside of Kleros.
+To become a juror:
+1. [Acquire PNK tokens](./pnk-token)
+2. [Stake your PNK in Kleros Court](./products/court/)
+3. Wait to be randomly selected for cases
+4. Follow the [Juror Tutorial](./products/court/juror-tutorial) to understand the process
 
-### Can I use a smart contract account to stake?
+### How much can I earn as a juror?
 
-Jurors should not stake using smart contract accounts in **courts where hiddenVotes are enabled** because the frontend cannot verify the signature. 
+Juror earnings depend on:
+- Amount of PNK staked
+- Number of cases you're selected for
+- Court fees and volume
+- Voting coherence with other jurors
 
-Courts with hiddenVotes enabled:
-- **General Court on Gnosis Chain**
-- **Spanish General Court on both Ethereum Mainnet and Gnosis Chain**
+Active jurors typically earn 10-20% APY on their staked PNK, though returns can vary significantly based on court activity.
 
-### Can I recuse myself from a case without penalty?
+### What happens if I vote incorrectly?
 
-Jurors drawn for a dispute must participate and cannot recuse themselves. However, they can vote "Refuse to Arbitrate" under specific conditions (see below).
+If you vote incoherently (differently from the majority), you lose a portion of your staked PNK tokens. This economic penalty incentivizes careful consideration of evidence and honest voting.
 
-Allowing recusal would disrupt the balance of dispute resolution costs and could compromise the integrity of outcomes in complex cases.
+### How does the appeal system work? Doesn't this favor wealthy parties?
 
-### When should I vote "Refuse to Arbitrate"?
+The appeal system requires exponentially increasing fees for each round, making frivolous appeals economically irrational. While parties with more resources can afford more appeals, the exponential cost structure and larger jury sizes in later rounds make it extremely expensive to "buy" a favorable outcome. This actually protects against wealthy parties gaming the system.
 
-Vote "Refuse to Arbitrate" when:
+### Can I specialize in certain types of cases?
 
-- **General Court guidelines indicate so** - For example, when both parties have engaged in immoral activities (like assassination market disputes)
-- **Specific court guidelines indicate so** - For example, in translation courts when parties fail to specify disputed parts in large content
-- **The applicable policy indicates so**
+Yes! Kleros has specialized subcourts for different dispute types:
+- General Court
+- Blockchain Non-Technical  
+- Blockchain Technical
+- English Language
+- Marketing Services
+- Curation
+- And more...
 
-Always review court guidelines and applicable policies on the case details page before voting.
+Each subcourt has specific requirements and policies you must understand before staking.
 
-### How do you ensure jurors are impartial?
+## For Developers
 
-The random selection procedure makes it extremely hard to be selected as a juror for a case you're involved in. Even if this happens, the appeal system allows correcting the ruling.
+### How do I integrate Kleros into my smart contract?
 
-While complete elimination of bias is impossible in any system, Kleros minimizes bias through:
-- Random selection
-- Economic incentives for honest voting
-- Appeal mechanisms
-- Transparency requirements
+Integration involves:
+1. Making your contract implement the [ERC-792 arbitration standard](./developers/arbitration-standard/erc-792)
+2. Adding dispute creation and ruling execution logic
+3. Following the [Smart Contract Integration Guide](./integrations/smart-contract-integration)
+4. Testing with our [deployment addresses](./developers/deployment-addresses)
 
-### How do you verify juror expertise if they're pseudonymous?
+[Check out our examples →](./developers/examples/)
 
-Kleros uses **economic self-selection**:
+### What are the costs of using Kleros?
 
-- Jurors choose which subcourts to participate in
-- Users with proper expertise make money over time
-- Users without adequate expertise lose money and exit
+Costs include:
+- **Arbitration fees**: Paid to jurors (varies by court)
+- **Gas fees**: For blockchain transactions
+- **Appeal deposits**: If you want to appeal a decision
 
-This works similarly to Wikipedia - users without expertise may participate but will likely be sanctioned economically.
+Current arbitration fees range from ~$50-500 depending on the subcourt and complexity.
 
-### How is evidence presented and managed?
+### Can Kleros work on other blockchains besides Ethereum?
 
-Evidence presentation depends on dispute type:
-- Freelancing disputes require different evidence than insurance or payment disputes
-- Kleros provides a backend for jurors to arbitrate disputes
-- Anyone can develop their own frontend interface
-- E-commerce platforms can build interfaces that tap into Kleros' juror network
+Yes! Kleros is deployed on multiple networks:
+- Ethereum Mainnet (full features)
+- Gnosis Chain (lower costs)
+- Polygon (scaling solution)
+- And expanding to more chains
 
-### How do you handle language barriers?
+## For Businesses
 
-Kleros has subcourts specializing in different languages. For example:
-- "Website dispute court in English"  
-- "Website dispute court in Spanish"
-- "Website dispute court in French"
+### What types of disputes can Kleros handle?
 
-### How do you ensure jurors review evidence instead of voting randomly?
+Kleros can arbitrate any dispute with objective criteria:
+- ✅ **Payment disputes** - Service delivery, quality issues
+- ✅ **Content moderation** - Policy violations, spam detection
+- ✅ **Identity verification** - KYC, proof of humanity
+- ✅ **Data curation** - Token listings, registry validation
+- ✅ **Insurance claims** - Parametric insurance, DeFi protocols
+- ✅ **Intellectual property** - Copyright, trademark disputes
+- ❌ **Subjective preferences** - Artistic taste, personal opinions
 
-Through **economic incentives**:
-- Jurors who vote randomly are more likely to vote incoherently with the majority
-- Incoherent voters lose their staked tokens
-- Dishonest jurors lose money over time and leave the court
+### Is Kleros legally recognized?
 
-### Are jurors required to provide justification for their votes?
+Kleros arbitration awards can be legally enforceable when:
+- Parties agree to Kleros arbitration in their contract
+- The jurisdiction recognizes blockchain-based arbitration
+- The dispute falls within Kleros's scope
 
-Yes, jurors must provide justification in the form of short text. Justifications are revealed to disputing parties and other jurors after voting is complete.
+We recommend consulting with legal counsel for specific jurisdictions and use cases.
 
-### What are the time limits for disputes?
+### How do I know if my use case is a good fit?
 
-Each subcourt has a specific time period for jurors to submit decisions. Jurors are notified of pending cases needing resolution.
+Your use case is likely a good fit if:
+- Disputes have clear, objective resolution criteria
+- Evidence can be presented digitally
+- Both parties can agree to use Kleros arbitration
+- The transaction value justifies arbitration costs
+- You need faster resolution than traditional courts
 
-### What happens if jurors don't respond within the time frame?
+[Explore our integration use cases →](./integrations/industry-use-cases)
 
-Jurors who don't rule before the deadline are penalized by:
-- Losing some of their staked tokens
-- Not receiving the arbitration fee
+## About PNK Token
 
-### Are jurors incentivized to create more disputes for more cases?
+### What is PNK used for?
 
-No. Voting incoherently to incite appeals only risks losing more money. Since PNK and Kleros are economically independent from other DAOs, jurors cannot directly cause more rulings to come to Kleros Court.
+PNK serves multiple purposes:
+- **Juror staking** - Required to participate in dispute resolution
+- **Governance voting** - Protocol decisions and parameter updates
+- **Fee payments** - Some arbitration services accept PNK
+- **Economic security** - Protects against attacks through token scarcity
 
-If proper juror activity leads to more partners trusting disputes to Kleros, this should be seen as positive for the ecosystem.
+[Learn more about PNK →](./pnk-token)
 
-## Legal & Regulatory
+### Where can I buy PNK tokens?
 
-### How does Kleros handle legal interpretation without judges?
+PNK is available on:
+- **DEXes**: Uniswap, Sushiswap, Balancer
+- **CEXes**: Bitfinex, Gate.io, OKEX
+- **Aggregators**: Paraswap, 1inch
 
-Similar to how online forum moderators follow predefined rules, jurors follow previously defined rules that instruct them on handling legal nuances. In early stages, Kleros focuses on simpler cases where legal nuances are less important.
+[Complete buying guide →](./pnk-token#where-to-buy-pnk)
 
-### What are the main legal and regulatory hurdles?
+### How is PNK different from other governance tokens?
 
-Because of its innovative cryptoeconomic approach, Kleros is not recognized as traditional arbitration under international agreements. This could limit adoption in mainstream regulated use cases.
+Unlike typical governance tokens, PNK has direct utility:
+- **Active participation required** - Must stake to earn rewards
+- **Economic skin in the game** - Wrong decisions result in losses
+- **Anti-Sybil protection** - Token scarcity prevents attacks
+- **Continuous utility** - Used in every dispute, not just governance votes
 
-However, this shouldn't obstacle adoption in crypto industry use cases. As Kleros proves effective in these areas, we expect growing interest in mainstream applications and eventual recognition by arbitration associations.
+## Technical Questions
 
-**Key points:**
-- Kleros is an 'opt-in' system
-- Enforcement is automatic and pre-accepted by contracting parties
-- Recognition will likely grow with proven track record
+### What standards does Kleros implement?
+
+Kleros implements and promotes several standards:
+- **[ERC-792](./developers/arbitration-standard/erc-792)**: Arbitration standard for smart contracts
+- **[ERC-1497](./developers/evidence-standard)**: Evidence display standard
+- **Court policies**: Detailed guidelines for each subcourt
+
+### How random is juror selection?
+
+Juror selection uses verifiable randomness based on:
+- Blockchain block hashes
+- Cryptographic commit-reveal schemes
+- Proportional selection based on stake
+
+The process is transparent and auditable on-chain.
+
+### What prevents jurors from colluding?
+
+Several mechanisms prevent collusion:
+- **Random selection** - Jurors don't know who else is selected
+- **Hidden voting** - Votes are concealed until the reveal phase
+- **Economic incentives** - Majority voting rewards, minority penalties
+- **Appeal mechanism** - Wrong decisions can be challenged
+
+## Security & Trust
+
+### Has Kleros been audited?
+
+Yes, Kleros smart contracts have undergone multiple security audits by leading firms. However, like all DeFi protocols, users should understand the risks involved.
+
+### What happens if Kleros is attacked or compromised?
+
+Kleros has multiple layers of protection:
+- **Economic security** - Attacks are prohibitively expensive
+- **Governance recovery** - Community can update parameters
+- **Fork resistance** - PNK token can be forked if necessary
+- **Appeal system** - Wrong decisions can be corrected
+
+### Can the Kleros team control outcomes?
+
+No. The Kleros team cannot:
+- Control juror selection
+- Influence voting outcomes  
+- Modify cases or evidence
+- Override community governance
+
+The protocol is fully decentralized and governed by PNK token holders.
+
+## Getting Help
+
+### Where can I get support?
+
+- **[Discord](https://discord.gg/MhXQGCyHd9)** - Real-time community support
+- **[Telegram](https://t.me/kleros)** - General discussions
+- **[Forum](https://forum.kleros.io)** - Detailed technical questions
+- **[GitHub](https://github.com/kleros)** - Developer issues and contributions
+
+### How do I report bugs or issues?
+
+- **Smart contract bugs**: Report via our bug bounty program
+- **Application issues**: GitHub issues or Discord
+- **Documentation problems**: GitHub pull requests welcome
+- **Security vulnerabilities**: Contact security@kleros.io
 
 ---
 
-## Still have questions?
+**Still have questions?** Join our [Discord](https://discord.gg/MhXQGCyHd9) community for real-time support, or browse our [detailed documentation](./intro) for more information.
 
-- Join our [Discord](https://discord.gg/MhXQGCyHd9) for real-time support
-- Visit our [Telegram](https://t.me/kleros) for community discussions  
-- Check out our [Forum](https://forum.kleros.io) for governance discussions
-- Read our [Blog](https://blog.kleros.io) for the latest updates
-
-Ready to get started? Check out our [Juror Tutorial](/products/court/juror-tutorial) or explore our [Developer Documentation](/developers/getting-started/).
+*The Kleros community is here to help you understand and successfully use decentralized justice.*

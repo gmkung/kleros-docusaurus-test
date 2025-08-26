@@ -41,6 +41,32 @@ const sidebars: SidebarsConfig = {
             'products/curate/tutorial'
           ],
         },
+        {
+          type: 'category',
+          label: 'Linguo',
+          items: [
+            'products/linguo/index',
+            'products/linguo/requesting-translations',
+            'products/linguo/working-as-translator',
+            'products/linguo/reviewing-translations',
+            'products/linguo/faq'
+          ],
+        },
+        {
+          type: 'category',
+          label: 'Moderate',
+          items: [
+            'products/moderate/index',
+            {
+              type: 'category',
+              label: 'Susie Bot',
+              items: [
+                'products/moderate/susie/index',
+                'products/moderate/susie/getting-started'
+              ],
+            }
+          ],
+        },
         'products/escrow',
         'products/proof-of-humanity'
       ],
@@ -51,7 +77,36 @@ const sidebars: SidebarsConfig = {
       collapsed: true,
       items: [
         'developer/index',
-        'developer/arbitration-standard'
+        'developer/arbitration-standard',
+        'developer/evidence-standard',
+        {
+          type: 'category',
+          label: 'Examples',
+          items: [
+            'developer/examples/index'
+          ],
+        },
+        'developer/deployment-addresses'
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Integrations',
+      collapsed: true,
+      items: [
+        'integrations/index'
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Contributing',
+      collapsed: true,
+      items: [
+        'contributing/index',
+        'contributing/git-workflow',
+        'contributing/solidity-standards',
+        'contributing/development-workflow',
+        'contributing/smart-contract-security'
       ],
     },
     {

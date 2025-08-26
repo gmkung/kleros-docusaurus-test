@@ -1,191 +1,124 @@
 ---
 sidebar_position: 4
-description: Kleros PNK token enables the creation of the right incentives and the prevention of Sybil attacks
+description: The native governance and utility token of the Kleros ecosystem
 ---
 
 # PNK Token
 
-## Contract Information
-
-**📍 PNK Token Contract Address (Ethereum Mainnet):**  
-[`0x93ed3fbe21207ec2e8f2d3c3de6e058cb73bc04d`](https://etherscan.io/token/0x93ed3fbe21207ec2e8f2d3c3de6e058cb73bc04d)
-
-**📊 Total Supply:** 764,626,704 PNK
-
-*The supply can only be modified by the Kleros community through a DAO governance vote.*
+⛓️ [**PNK Token Contract Address on Ethereum Mainnet**](https://etherscan.io/token/0x93ed3fbe21207ec2e8f2d3c3de6e058cb73bc04d)
 
 ## Where to Buy PNK
 
 ### DEX Aggregators (Large Trades)
-- 🔼 **[ParaSwap](https://paraswap.io/#/)** - Best rates across multiple DEXs
-- 🦓 **[1inch](https://1inch.exchange/#/)** - Optimal routing and gas efficiency
+- 🔼 [Paraswap](https://paraswap.io/#/) - Best price aggregation
+- 🦓 [1inch](https://1inch.exchange/#/) - Smart routing
 
-### Decentralized Exchanges (Medium Trades)
-- 🦄 **[Uniswap](https://app.uniswap.org/#/swap?inputCurrency=ETH&outputCurrency=0x93ed3fbe21207ec2e8f2d3c3de6e058cb73bc04d)** - Leading Ethereum DEX
-- 🍣 **[SushiSwap](https://app.sushi.com/swap?inputCurrency=ETH&outputCurrency=0x93ed3fbe21207ec2e8f2d3c3de6e058cb73bc04d)** - Community-driven DEX
-- ⚖️ **[Balancer](https://balancer.exchange/#/swap)** - Automated portfolio manager
+### DEXes on L1 (Medium Trades)
+- 🦄 [Uniswap](https://app.uniswap.org/#/swap?inputCurrency=ETH&outputCurrency=0x93ed3fbe21207ec2e8f2d3c3de6e058cb73bc04d)
+- 🍣 [Sushiswap](https://app.sushi.com/swap?inputCurrency=ETH&outputCurrency=0x93ed3fbe21207ec2e8f2d3c3de6e058cb73bc04d)
+- ⚖️ [Balancer](https://balancer.exchange/#/swap)
 
-### Layer 2 Solutions (Small Trades)
-- 🔷 **[DeversiFi](https://app.deversifi.com)** - Gas-free trading on StarkEx
+### DEXes on L2 (Small Trades)
+- 🔷 [Deversifi](https://app.deversifi.com)
 
-### Centralized Exchanges (Fiat Onramp)
-- 🍃 **[Bitfinex](https://www.bitfinex.com/t/PNKETH)** - PNK/ETH trading
-- 🚪 **[Gate.io](https://www.gate.io/trade/PNK_USDT/?ch=en_sm_0421)** - PNK/USDT pair
-- 🆗 **[OKEx](https://www.okex.com/markets/spot-info/pnk-usdt)** - Multiple trading pairs
+### Centralized Exchanges (Fiat Trading)
+- 🍃 [Bitfinex](https://www.bitfinex.com/t/PNKETH)
+- 🚪 [Gate.io](https://www.gate.io/trade/PNK_USDT/?ch=en_sm_0421)
+- 🆗 [OKEX](https://www.okex.com/markets/spot-info/pnk-usdt)
 
-### Credit Card Purchase
-- 🛡️ **[Guardarian](https://guardarian.com)** - Direct PNK purchase with credit card
+### Credit Card Onramp
+- 🛡️ [Guardarian](https://guardarian.com)
 
 ## What is PNK?
 
-PNK serves two primary functions in the Kleros ecosystem:
+PNK is the native token of the Kleros ecosystem, serving multiple critical functions:
 
-### 🗳️ Governance Rights
-- Vote on governance decisions across the Kleros platform
-- Participate in protocol upgrades and parameter changes
-- Influence court creation and policy updates
-- Shape the future direction of the ecosystem
+- **Voting Rights:** PNK holders participate in all governance decisions on the Kleros platform, including court parameters, policy updates, and protocol upgrades.
 
-### ⚖️ Jury Participation
-- Stake PNK to become eligible as a juror
-- Higher stakes increase chances of selection
-- Earn fees and coherence rewards for honest voting
-- Choose specialized courts based on expertise
+- **Staking for Jury Selection:** Users must stake PNK to become eligible jurors. The more PNK staked, the higher the chance of selection for dispute resolution cases.
 
-## Token Origins: Pinakions
+- **Economic Incentives:** Jurors who vote coherently with the majority receive rewards, while those who vote incoherently lose a portion of their stake.
 
-The PNK ticker comes from **"Pinakions"** - small bronze plates used in Ancient Athens. Citizens' names were written on these plates and inserted into a randomizing machine that selected participants for juries and civil service roles.
+- **Court Governance:** Each subcourt uses PNK for specialized governance decisions regarding policies, fees, and juror requirements.
 
-![Ancient Pinakion](https://via.placeholder.com/400x200?text=Ancient+Pinakion)
+## PNK Testnet Faucets
 
-This historical reference reflects Kleros' mission to democratize justice through random jury selection.
+For testing and development purposes, you can obtain testnet PNK from these faucets. Call the `request` function to receive 10,000 PNK (limited to once per address):
 
-## How PNK Works in Kleros Court
+- [Goerli PNK Faucet](https://goerli.etherscan.io/address/0x4B89e798B10478A839Ea0Abcf86C4B94A3C782A4/README.md#writeContract)
+- [Kovan PNK Faucet](https://kovan.etherscan.io/address/0x4e95b2e0ecb3bd394e1dddd775504820a746d3bd#writeContract)
 
-### Jury Selection Process
-
-1. **Staking**: PNK holders stake tokens in specific courts
-2. **Random Selection**: For each dispute, random PNK are drawn from staked tokens
-3. **Jury Formation**: Holders of selected tokens become jurors
-4. **Appeal Process**: Larger juries are formed for appeals, requiring more PNK
-
-### Economic Incentives
-
-- **Coherent Jurors**: Earn arbitration fees + coherence rewards
-- **Incoherent Jurors**: Lose staked tokens to coherent jurors
-- **Court Specialization**: Higher rewards in specialized courts requiring expertise
+*Contact the Kleros team if you need PNK faucets on other testnets.*
 
 ## Why Kleros Needs a Native Token
 
-### 🛡️ Sybil Attack Protection
+### Protection Against Sybil Attacks
 
-PNK provides crucial protection against [Sybil attacks](https://en.wikipedia.org/wiki/Sybil_attack):
+The primary purpose of PNK is to protect the Kleros protocol against [Sybil attacks](https://en.wikipedia.org/wiki/Sybil_attack). To flood the juror pool with malicious actors, an attacker would need to acquire at least 51% of all staked PNK tokens - a prohibitively expensive endeavor.
 
-- Attackers need 51% of staked tokens to reliably control outcomes
-- Requires substantial economic resources to mount attacks
-- Economic barriers scale with the value at stake
+### Economic Security Through Scarcity
 
-### 🔒 Attack Resistance Mechanisms
+Unlike using ETH or other external tokens, PNK's limited supply creates natural economic barriers:
 
-#### 1. Market Liquidity Defense
-- As attackers buy PNK, it becomes scarce
-- Each additional token costs progressively more  
-- May not find 51% of PNK for sale at any time
-- Much stronger defense than using ETH or other external tokens
+- **Market Liquidity Defense:** As attackers attempt to buy large amounts of PNK, the price increases and liquidity decreases, making attacks exponentially more expensive.
+- **Concentrated Market:** PNK has a smaller, more concentrated market compared to ETH, meaning large purchases significantly impact price and availability.
 
-#### 2. Economic Cost of Attacks
-- Successful attacks damage Kleros credibility
-- PNK value decreases, causing attacker losses
-- Self-defeating economic incentives
-- Attackers lose money even if attack succeeds
+### Attack Cost Amplification
 
-#### 3. Community Fork Protection
-- **Last resort defense**: Community can fork to remove attacker holdings
-- Market decides which version of PNK to use
-- Similar to Augur's ultimate appeal mechanism
-- Not possible with external tokens like ETH
+If an attacker successfully acquires 51% of PNK and begins making obviously incorrect decisions:
 
-### Attack Scenario Analysis
+1. **Reputation Damage:** The Kleros platform loses credibility
+2. **Token Value Collapse:** PNK price drops significantly  
+3. **Attacker Losses:** The attacker loses substantial value on their PNK holdings
+4. **Economic Deterrent:** The financial loss serves as a strong disincentive
 
-```mermaid
-graph TD
-    A[Attacker Buys PNK] --> B{Reaches 51%?}
-    B -->|No| C[Attack Fails - Loses Money]
-    B -->|Yes| D[Commits Obvious Injustice]
-    D --> E[Community Notices Attack]
-    E --> F[PNK Value Crashes]
-    F --> G[Attacker Loses Massive Value]
-    G --> H[Community Considers Fork]
-    H --> I[New Token Without Attacker Holdings]
-```
+This creates a self-reinforcing security mechanism where attacking the system becomes economically irrational.
+
+### Fork Resistance as Last Resort
+
+In extreme scenarios, the community can fork the PNK token to exclude an attacker's holdings, similar to [Augur's ultimate appeal mechanism](https://medium.com/kleros/kleros-and-augur-keeping-people-honest-on-ethereum-through-game-theory-56210457649c). While disruptive, this provides a final line of defense unavailable with external tokens.
 
 ## Token Economics
 
-### Current Distribution
+### Total Supply
+- **Current Supply:** 764,626,704 PNK
+- **Supply Changes:** Only possible through community DAO governance votes
+- **Distribution:** Distributed through various mechanisms including staking rewards and community allocations
 
-- **Team Members**: 18%
-- **First Token Sale Round**: 16% 
-- **Airdrop**: 4%
-- **Subsequent Rounds & Juror Incentives**: 50%
-- **Kleros Cooperative Development Reserve**: 12%
+### Utility Functions
+1. **Court Staking** - Lock PNK to participate as a juror
+2. **Governance Voting** - Vote on protocol parameters and upgrades  
+3. **Fee Payments** - Pay for arbitration services in some contexts
+4. **Incentive Alignment** - Reward honest behavior, penalize dishonest actions
 
-### Utility Mechanisms
+## The Pinakion Connection
 
-- **Staking Rewards**: Earn fees for jury service
-- **Governance Power**: Influence protocol decisions
-- **Court Access**: Required for jury participation
-- **Appeal Crowdfunding**: Support correct decisions
+The "PNK" ticker derives from "Pinakions" - small bronze plates used in Ancient Athens. Citizens' names were inscribed on these plates and inserted into a randomizing machine (kleroterion) to select participants for juries and civil service roles.
 
-## Testnet Faucets
-
-Get testnet PNK for development and testing:
-
-:::tip Testnet PNK Faucets
-Call the `request` function to receive 10,000 testnet PNK (once per address):
-
-- **[Goerli PNK Faucet](https://goerli.etherscan.io/address/0x4B89e798B10478A839Ea0Abcf86C4B94A3C782A4#writeContract)** - Currently supported
-- **[Kovan PNK Faucet](https://kovan.etherscan.io/address/0x4e95b2e0ecb3bd394e1dddd775504820a746d3bd#writeContract)** - Legacy support
-
-*Contact the Kleros team if you need faucets on other testnets.*
-:::
+This historical connection reflects Kleros's mission to bring democratic, randomized justice to the digital age through cryptographic methods rather than mechanical bronze plate systems.
 
 ## Getting Started with PNK
 
 ### For Jurors
-1. **[Buy PNK](#where-to-buy-pnk)** from your preferred exchange
-2. **[Stake in Court](https://court.kleros.io)** - Choose courts matching your expertise
-3. **Wait for Selection** - Random selection for disputes
-4. **Vote and Earn** - Coherent voting earns rewards
+1. [Acquire PNK tokens](./pnk-token) from supported exchanges
+2. [Stake in Kleros Court](./products/court/) to become eligible for jury duty
+3. Participate in cases and earn rewards for coherent voting
 
 ### For Governance Participants
-1. **Hold PNK** in your wallet
-2. **Join [Forum Discussions](https://forum.kleros.io)** - Stay informed
-3. **Vote on [Snapshot](https://snapshot.org/#/kleros.eth)** - Participate in governance
-4. **Monitor [Governor](/products/governor)** - Track implementation
+1. Hold PNK tokens in your wallet
+2. [Join governance discussions](https://forum.kleros.io) on the forum
+3. [Vote on proposals](https://snapshot.org/#/kleros.eth) using your PNK balance
 
-## Security Best Practices
-
-- **Use Hardware Wallets** for large PNK holdings
-- **Never share private keys** or seed phrases
-- **Verify contract addresses** before interacting
-- **Keep software updated** and use official interfaces
-- **Understand risks** before staking or trading
-
-## Community Resources
-
-- **📊 [KlerosBoard](http://klerosboard.com)** - Court analytics and statistics
-- **📈 [Token Analytics](https://www.coingecko.com/en/coins/kleros)** - Price and market data
-- **🔗 [Etherscan](https://etherscan.io/token/0x93ed3fbe21207ec2e8f2d3c3de6e058cb73bc04d)** - On-chain token information
-- **💬 [Discord](https://discord.gg/MhXQGCyHd9)** - Community discussions
-- **🗳️ [Governance Forum](https://forum.kleros.io)** - Proposal discussions
+### For Developers
+1. Review the [ERC-792 arbitration standard](./developers/arbitration-standard/erc-792)
+2. Explore [integration examples](./developers/examples/)
+3. Consider PNK requirements for your arbitrable contracts
 
 ---
 
-## Learn More
+**Learn More:**
+- [Detailed Token Economics](https://medium.com/kleros/why-kleros-needs-a-native-token-5c6c6e39cdfe)
+- [Governance Participation Guide](./governance)
+- [Court Staking Tutorial](./products/court/staking-guide)
 
-- **[Court System](/products/court/)** - How to become a juror
-- **[Governance](/governance)** - Participate in protocol decisions
-- **[Famous Cases](/products/court/famous-cases)** - See PNK incentives in action
-- **[White Paper](https://kleros.io/whitepaper.pdf)** - Technical details of the token economics
-
-*PNK is more than a token - it's the foundation of decentralized justice.*
+*PNK tokens represent more than utility - they embody the economic incentives that make decentralized justice possible.*
